@@ -18,7 +18,7 @@ const APP_FILE = `<script>
 </script>
 
 <component name="App">
-    <h1>The number is {n}.</h1>
+    <h1>The number is {n}</h1>
     <button @click={onClick}>Increment</button>
 </component>
 `;
