@@ -96,7 +96,7 @@ export default function() {
             button_0.addEventListener('click', onClick);
         },
         destroy() {
-            const component = document.querySelector('[data-component="Counter_0"]');
+            const component = document.querySelector('[data-component="App_0"]');
             document.body.removeChild(component);
         }
     }
